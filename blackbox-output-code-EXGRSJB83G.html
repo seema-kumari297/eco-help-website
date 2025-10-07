@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EconHub - Study & Career Help for Economics Students</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo"><i class="fas fa-chart-line"></i> EconHub</h1>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#study">Study Resources</a></li>
+                    <li><a href="#career">Career Guidance</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to EconHub</h2>
+            <p>Your one-stop resource for economics students. Master key concepts, ace exams, and launch your career in finance, policy, or consulting.</p>
+            <a href="#study" class="cta-button">Start Studying</a>
+            <a href="#career" class="cta-button secondary">Explore Careers</a>
+        </div>
+    </section>
+
+    <section id="study" class="section">
+        <div class="container">
+            <h2>Study Resources</h2>
+            <p>Free tools, notes, and tutorials to help you excel in microeconomics, macroeconomics, econometrics, and more.</p>
+            
+            <div class="resource-grid">
+                <div class="resource-card">
+                    <h3>Microeconomics Basics</h3>
+                    <p>Supply, demand, elasticity, and market structures. Includes interactive graphs.</p>
+                    <a href="https://www.khanacademy.org/economics-finance-domain/microeconomics" target="_blank">Khan Academy Link</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>Macroeconomics Notes</h3>
+                    <p>GDP, inflation, unemployment, and fiscal policy. Downloadable PDFs.</p>
+                    <a href="#" onclick="alert('Download sample notes here! (Add real PDF link)');">Download Notes</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>Econometrics Tools</h3>
+                    <p>Intro to regression analysis and stats software like R or Stata.</p>
+                    <a href="https://www.coursera.org/learn/econometrics" target="_blank">Coursera Course</a>
+                </div>
+                
+                <div class="resource-card">
+                    <h3>Exam Prep Quiz</h3>
+                    <p>Test your knowledge with practice questions on key topics.</p>
+                    <button onclick="startQuiz()">Take Quiz</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="career" class="section">
+        <div class="container">
+            <h2>Career Guidance</h2>
+            <p>From internships to job hunting: Tips for economics grads entering finance, government, or academia.</p>
+            
+            <div class="career-grid">
+                <div class="career-card">
+                    <h3>Top Careers in Economics</h3>
+                    <ul>
+                        <li>Economist (Govt/Think Tanks)</li>
+                        <li>Financial Analyst</li>
+                        <li>Policy Advisor</li>
+                        <li>Data Scientist</li>
+                    </ul>
+                    <p>Average salary: $100K+ (US data).</p>
+                </div>
+                
+                <div class="career-card">
+                    <h3>Resume & Interview Tips</h3>
+                    <p>Highlight quantitative skills (e.g., Stata, Excel). Tailor for roles like consulting at McKinsey.</p>
+                    <a href="#" onclick="alert('Sample resume template! (Add real link)');">Download Resume Template</a>
+                </div>
+                
+                <div class="career-card">
+                    <h3>Internships & Jobs</h3>
+                    <p>Search for opportunities at World Bank, IMF, or banks.</p>
+                    <a href="https://www.indeed.com/jobs?q=economics+internship" target="_blank">Find Internships</a>
+                </div>
+                
+                <div class="career-card">
+                    <h3>Networking Advice</h3>
+                    <p>Join LinkedIn groups like "Economics Students" and attend AEA conferences.</p>
+                    <button onclick="showTip()">Get Quick Tip</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About EconHub</h2>
+            <p>Built by economics enthusiasts to support students worldwide. Contribute resources via email: contact@econhub.com</p>
+            <p>Disclaimer: All links are external; verify for accuracy.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 EconHub. All rights reserved. | <a href="#privacy">Privacy Policy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
